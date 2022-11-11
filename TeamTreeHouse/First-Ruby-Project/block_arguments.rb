@@ -3,7 +3,7 @@ def get_name
     name = gets.chomp
 
     # Will call the block of code with the argument "name"
-    yield name
+    yield(name)
 
     #return the name with explicit return
     name
@@ -13,5 +13,3 @@ end
 my_name = get_name do | name |
     puts "That's a cool name, #{name}!"
 end
-
-puts "#{my_name}"
