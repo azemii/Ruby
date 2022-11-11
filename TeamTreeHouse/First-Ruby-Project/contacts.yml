@@ -1,0 +1,10 @@
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Work
+    number: '007'
+  addresses: []
+  first_name: Armend
+  middle_name: ''
+  last_name: Azemi
